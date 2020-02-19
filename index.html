@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+</html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+            <div class="card">
+                <div class="jumbotron">
+                    <h1>Akan Name</h1>
+                    <p>The Akan people of Ghana frequently name their children 
+                        after the day of the week they were born and the order 
+                        in which they were born. These "day names" have further 
+                        meanings concerning the soul and character of the person.
+                        Middle names have considerably more variety and can refer 
+                        to their birth order, twin status, or an ancestor's middle 
+                        name.</p>
+
+                        <p>This naming tradition is shared throughout West Africa and 
+                        the African diaspora. During the 18th–19th centuries, slaves 
+                        in the Caribbean from the region that is modern-day Ghana were 
+                        referred to as Coromantees. Many of the leaders of slave rebellions 
+                        had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina 
+                        or Kwame/Kwamina.</p>              
+                      
+                </div>
+           </div>
+
+
+
+           <div class="card">
+               <h1>Fill in your details and get to know your Akan Name!</h1>
+               <div class="card">
+                   <label for="gender">Gender </label>
+                   <select class="custom-select" id="gender" name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+               </div>
+               <div class="card">
+                   <label for="century">Century</label>
+                   <input type="number" id="century" placeholder="CC" required>
+               </div>
+               <div class="card">
+                   <label for="year">Year   </label>
+                   <input type="number" id="year" placeholder="YY" required>
+               </div>
+               <div class="card">
+                   <label for="month">Month</label>
+                   <input type="number" id="month" placeholder="MM" required>
+               </div>
+               <div class="card">
+                   <label for="day">Day    </label>
+                   <input type="number" id="day" placeholder="DD" required>
+               </div>
+           </div>
+           <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+
+    </div>
+    <h3 id="outcome"></h3>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
